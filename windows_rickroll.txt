@@ -1,0 +1,24 @@
+REM With this script you learn how to open the powershell and open links with ducky
+
+
+
+REM wait a bit before the first commands
+DELAY 50
+
+REM open the quickstart in windows
+GUI r
+
+REM wait shortly
+DELAY 500
+
+REM enter the command to open the powershell
+STRING powershell.exe
+ENTER
+
+REM wait a sec
+DELAY 1000
+
+REM open a link in the default browser
+STRING Start-Process "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+ENTER
+
