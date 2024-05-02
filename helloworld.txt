@@ -1,7 +1,0 @@
-REM This "Hello World!" script will just send the key strokes to write "Hello World!"
-
-REM Give the script a sec delay in the beginning
-DELAY 1000
-
-REM Insert keystrokes with the string command
-STRING Hello World!
